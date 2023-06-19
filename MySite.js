@@ -48,3 +48,10 @@ function toggleOverlay(element) {
     var overlay = element.previousElementSibling;
     overlay.style.height = overlay.style.height === '0px' ? '100%' : '0px';
 }
+var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+// Hide the video if Safari is detected
+if (isSafari) {
+  var video = document.getElementById('myVideo');
+  video.style.display = 'none';
+}
