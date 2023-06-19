@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Bar Efrima </title>
+        <link href="Style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+        <script src="MySite.js" defer> </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A website about me- Bar Efrima">
+        <meta name="theme-color" content="#000000"/>
+    </head>
+    <body>
+        <div class="mysite-pannel"> 
+            <video autoplay muted loop id="myVideo">
+                <source src="stars.webm" type="video/webm">
+            </video>
+            <section class="trytop">
+                <nav id= "nav-bar">
+                    
+                    <h2 class="myname">Bar Efrima</h2>
+                    <ul id="menue">
+                        <li><a href="#aboutmeTag">About Me</a></li>
+                        <li><a href="#projectsTag">Projects</a></li>
+                    </ul> 
+                    <div class ="nav-logos">
+                        <a href="mailto:bar2798@gmail.com" target="_blank">
+                    <img src="Logo/mail.png" id ="mail-logo" alt="Logo">
+                </a>
+                    <a href="https://wa.me/972542653012" target="_blank">
+                    <img src="Logo/whatsapp.png" id ="whatsapp-logo" alt="Logo">
+                </a>
+                </div>
+                </nav>
+                </section>
+            <section>
+                <section class="HelloWorld">
+                <section class ="hidden">
+                        <p class="hello" id="animated-text"> <strong>Hello, World.</p>
+                        <p class="name">
+                            <strong>I'm Bar Efrima.
+                        </p>
+                            <a href=#aboutmeTag>
+                        <p class="more stroke">
+                        more about me
+                        </p>
+                            </a>
+                </section>
+            </section>
+            
+            </section>
+            <div class="logo-container">
+                <a href="https://www.linkedin.com/in/bar-efrima/" target="_blank">
+                    <img src="Logo/linkedin.png" alt="LinkedIn" />
+                </a>
+                <a href="CV/Bar Efrima cv.pdf" download="cv.pdf">
+                    <img src="Logo/cv.png" alt="Instagram" />
+                  </a>                  
+                <a href="https://github.com/bar-efrima/" target="_blank">
+                    <img src="Logo/github.png" alt="GitHub" />
+                </a>
+            </div>
+        </div>
+        <!--About Me section-->
+        <a name=aboutmeTag>
+            <section class="about-me">
+                <div class="main-about-me">           
+                    <img src="./my_photo.png" alt="">
+                    <div class ="about-me-text">
+                        <h2>About Me</h2>
+                        <section class="fade-in-section">
+                            <h1 class="letMe">Let me introduce myself. <h1>
+                            <p> Bar Efrima, a 24-year-old BSc. Computer Science student, 
+                                passionate about innovation, AI, and problem-solving. <br>
+                                With programming and graphic design expertise, 
+                                I bring a unique blend of creativity and technical skills. <br>
+                                I research computer-human interaction at Milab lab and have a keen interest in product development and IOT.<br>
+                                My goal is to push technology's boundaries through new challenges.</p>
+                        </section>
+                    </div>
+                </div>         
+            </section>
+        </a>
+
+        <!--Projects section-->      
+        <section class="projects">  
+            <a name=projectsTag>
+            <h2 class="projects-header">PROJECTS </h2>
+            </a>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                    <img src="projects/Amazon.jpg" alt="Project 1" class="project-image"/>
+                    <div class="overlay">
+                        <div class="text-projects"> 
+                            <h2 class="title">Amazon Scraper</h2>
+                            <p class="description">FastAPI web app that displays item prices 
+                                from multiple Amazon websites. Users can search for items, view scraped results, 
+                                and see prices from different Amazon sites. 
+                                It includes features like currency conversion, search limits, and past search history.</p>
+                                <div class="logo-overlay">
+                                <a href="https://youtu.be/kTHfsLwlMJY"><img src="Logo/github.png" class="project-image" /></a> 
+                                <a href="https://github.com/bar-efrima/Amazon-Product-Search/tree/main"><img src="Logo/youtube.png" class="project-image" /></a> 
+                                </div>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                    <img src="projects/navigation.jpg" alt="Project 9" class="project-image" />
+                    <div class="overlay">
+                        <div class="text-projects">
+                            <h2 class="title">Unavigate</h2>
+                            <p class="description"> Created a cross-platform app for Reichman University using Ionic React. The app allows users to easily find rooms, coffee, water, and more.</p>
+                            <div class="logo-overlay">
+                                <a href="https://github.com/yourgithublink"><img src="Logo/github.png" ></a>
+                                <a href="https://www.youtube.com/watch?v=-sBSDOqAaPk&ab_channel=BarEfrima"><img src="Logo/youtube.png" ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="project-item">
+                     <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                    <img src="projects/Kitchef.jpg" alt="Project 2" class="project-image" />
+                    <div class="overlay">
+                        <div class="text-projects">
+                            <h2 class="title">Kitchef</h2>
+                            <p class="description">
+                                Kitchef is an IoT prototype project I developed in my research on computer-human interaction at Milab. 
+                                Kitchef combines wearable technology, smart objects, and collaborative 
+                                cooking experiences for parents and children. From recipe selection to wristband interaction and shared progress</p>
+                            <div class="logo-overlay">
+                                <a href="https://github.com/bar-efrima/Kitchef"><img src="Logo/github.png" ></a>
+                                <a href="https://milabgroup42022.wixsite.com/kitchef"><img src="Logo/Kitchef-logo.png" id="kitchef"></a>
+                                <a href="https://www.youtube.com/youryoutubelink"><img src="Logo/youtube.png" ></a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                    <img src="projects/musical.jpg" alt="Project 4" class="project-image" />
+                    <div class="overlay">
+                        <div class="text-projects">
+                            <h2 class="title">The Musical Spray</h2>
+                            <p class="description">Arduino-based C++ touch instrument featuring 4 
+                                metal buttons that produce different sound notes when touched. 
+                                It offers multiple modes for unique note generation. In low-light conditions, 
+                                the instrument illuminates with red lights. </p>
+                            <div class="logo-overlay">
+                                <a href="https://github.com/bar-efrima/The-Musical-Spray"><img src="Logo/github.png" ></a>
+                                <a href="https://www.youtube.com/watch?v=cg78-Zcp89s&t=11s&ab_channel=BarEfrima"><img src="Logo/youtube.png" ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                    <img src="projects/WeatherWizard.jpg" alt="Project 5" class="project-image" />
+                    <div class="overlay">
+                        <div class="text-projects">
+                            <h2 class="title">WeatherWizard App</h2>
+                            <p class="description">I developed a cross-platform weather app using React Ionic. 
+                                It allows users to select a city from a dropdown menu and fetches the current weather for that city. 
+                                The app features moving cloud effects and has a custom background and logo.</p>
+                            <div class="logo-overlay">
+                                <a href="https://github.com/bar-efrima/WeatherWizard-App"><img src="Logo/github.png" ></a>
+                                <a href="https://youtu.be/PVBT4ktRmHY"><img src="Logo/youtube.png" ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                            <img src="projects/GameHighlights.jpg" alt="Project 3" class="project-image" />
+                    <div class="overlay">
+                        <div class="text-projects">
+                            <h2 class="title">Highlights Maker</h2>
+                            <p class="description">
+                                I created a Python program that extracts important moments from a sports game 
+                                video using audio and keywords. It analyzes volume peaks, recognizes exciting 
+                                words through speech recognition, and prints timestamps. 
+                                Additionally, it generates GIFs of those moments. </p>
+                            <div class="logo-overlay">
+                                <a href="https://github.com/bar-efrima/Highlights-Creator/tree/main"><img src="Logo/github.png" ></a>
+                                <a href="https://youtu.be/dU6XqPEafqA"><img src="Logo/youtube.png" ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                    <img src="projects/BubbleTrouble.jpg" alt="Project 7" class="project-image" />
+                    <div class="overlay">
+                        <div class="text-projects">
+                            <h2 class="title">Gaming With Fruits</h2>
+                            <p class="description">Playing "Bubble Trouble" with fruits as keyboard using Circut Playground Express.  
+                                banana gun, orange controller, and cheat mode activated by touching a sweet potato. 
+                                The program, written in Arduino C++, utilizes sensors to control the game.</p>
+                            <div class="logo-overlay">
+                                <a href="https://github.com/bar-efrima/Emulating-Bubble-Trouble-With-Fruits"><img src="Logo/github.png" ></a>
+                                <a href="https://www.youtube.com/watch?v=XRUjBdCev2o&ab_channel=BarEfrima"><img src="Logo/youtube.png" ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                    <img src="projects/Royal-cats.jpg" alt="Project 8" class="project-image" />
+                    <div class="overlay">
+                        <div class="text-projects">
+                            <h2 class="title">Royal Cats NFT </h2>
+                            <p class="description">Founder and Owner of 'Royal Cats NFT' blockchain project. 
+                                Programmed ERC-721 ETH contract with Solidity, created 
+                                10k unique NFTs, Built the collection website, managed global team of 20, and grew community to 8K+.
+                                </p>
+                            <div class="logo-overlay">
+                                <a href="https://discord.gg/SezePJFhtQ"><img src="Logo/discordlogo.png" ></a>
+                                <a href="https://twitter.com/RoyalCats_NFT"><img src="Logo/twitter logo.png" ></a>
+                                <a href="https://www.royalcatsnft.art/"><img src="Logo/royalcats.logo.png" a></a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="arrow" onclick="toggleOverlay(this)">≡</div>
+                            <img src="projects/Weather-box.jpg" alt="Project 6" class="project-image" />
+                            <div class="overlay">
+                                <div class="text-projects">
+                                    <h2 class="title">The Weather Box</h2>
+                                    <p class="description">A device that retrieve the current weather conditions at a specified location by fetching the data from weather API, 
+                                        You can enter specific longitude and latitude and the
+                                        device then displays a customized lights corresponding to the current weather condition.
+                                        </p>
+                                    <div class="logo-overlay">
+                                        <a href="https://github.com/bar-efrima/The-Weather-Box"><img src="Logo/github.png" ></a>
+                                        <a href="https://www.youtube.com/watch?v=788kr_7DwH4&ab_channel=BarEfrima"><img src="Logo/youtube.png" ></a>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <p>&copy; 2023 Bar Efrima. Created, coded, and designed </p>
+    </footer>
+</html>
+
