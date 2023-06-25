@@ -424,7 +424,7 @@ nav.sticky ul li a{
 
 .text-projects {
     color: white;
-    font-size: 20px;
+    font-size: 1vw; 
     position: absolute;
     width: 100%;
     font-family: "Lora", sans-serif;
@@ -433,24 +433,19 @@ nav.sticky ul li a{
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    text-align: top;
+    padding-bottom: 0;
+    padding-left: 1.25vw; 
+    padding-right: 1.25vw; 
 }
 
 .title {
-    margin-bottom: 10px;
-}
-
-.title:hover {
-    filter: brightness(0) saturate(100%) invert(58%) sepia(44%) saturate(5402%) hue-rotate(294deg) brightness(96%) contrast(87%); /* Change color to pink */
+    margin-bottom: 0.625vw; 
 }
 
 .description {
-    margin-bottom: 20px;
-    font-size: 14px;
+    margin-bottom: 1vw;  
+    font-size: 0.8em;  
     font-weight: 100;
 }
 
@@ -461,20 +456,20 @@ nav.sticky ul li a{
 }
 
 .logo-overlay a {
-    margin: 0 10px;
-    
+    margin: 0 0.9vw;  
 }
+
 .logo-overlay img {
-    padding-top: 0px;
-    width: 25px;
-    height: 25px;
-    margin: 0 5px;
+    margin-top: 1vw;
+    width: 1.5vw;  
+    height: 1.5vw;  
     transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 
+
 #kitchef{
-    width: 65px;
-    height: 15px;
+    width: 5vw;
+    height: 1.2vw;
 }
 
 .logo-overlay img:hover {
@@ -484,7 +479,6 @@ nav.sticky ul li a{
 footer {
     background-color: black;
     text-align: center;
-    /* border-top: 1px solid #c84a97; */
 }
 
 footer p {
@@ -504,12 +498,12 @@ footer p {
 }
 
 .arrow {
-    display: none; /* hidden by default */
+    display: none;
     position: absolute;
-    top: 0; /* position it at the bottom of the project-item */
-    left: 50%; /* center it horizontally */
-    transform: translateX(-50%); /* center it horizontally */
-    cursor: pointer; /* change cursor when hovering over the arrow */
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    cursor: pointer; 
 }
 
 /* /////////////////////////////////////////////////////////////////////////// */
