@@ -186,6 +186,7 @@ nav.sticky ul li a{
     color: white;
     border-color: rgba(255, 255, 255, 0.99);
     line-height: 3rem;
+    font-size: 1vw;
     text-transform: uppercase;
     margin-left: 25%;
     margin-right: 25%;
@@ -405,8 +406,8 @@ nav.sticky ul li a{
 .overlay {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: top;
     position: absolute;
     bottom: 0;
     left: 0;
